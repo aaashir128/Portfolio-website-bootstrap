@@ -1,0 +1,155 @@
+*{
+    font-family: 'Cinzel', serif;
+}
+.bgimg{
+    background-image: url("gallery/Lap.jpeg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.headerset{
+    padding: 200px;
+    box-sizing: border-box;
+}
+.headerset h2{
+    color: rgb(204, 250, 112);
+    font-size: 42px;
+}
+.headerset h1{
+    color: rgb(204, 250, 112);
+    font-weight: bolder;
+    font-size: 82px;
+}
+
+/* ***************** Our Services ********** */
+
+.ourservices{
+    padding: 100px 0  ;
+    height: 100%;
+}
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.rowSetting{
+    margin: 80px 0px !important;
+}
+.imgSetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fa-3x{
+    margin-top: 28px;
+}
+.rowSetting h2{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.rowSetting p{
+color: #6c757d !important;
+padding: 10px;
+}
+
+/* ***************** Our Services Ended here ********** */
+
+/* ***************** Portfolio Started here ********** */
+.portfolio{
+    height: 100%;
+    width: 100%;
+    padding: 100px 0 ;
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    margin-top: 40px;   
+}
+.card-img-top{
+    height: 250px;
+}
+/* ***************** Portfolio Ended here ********** */
+
+/* ***************** Our Team Started here ********** */
+.ourTeam{
+    height: 100%;
+    width: 100%;
+    padding: 100px 0 ;
+}
+.ourTeam h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.teamSetting{
+    margin-top: 70px !important;
+}
+/* ***************** Our Team Ended here ********** */
+
+/* ***************** Footer Started here ********** */
+.footer{
+    height: 50px    ;
+}
+.footer h6{
+    line-height: 50px !important;
+}
+
+
+ /* ****************** Responsive *************** */
+
+/* @media(min-width: 992px){
+
+ }
+
+@media(min-width: 768px) and (max-width: 991px){
+     
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+     
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+     
+}
+
+@media(max-width: 479px){
+    .headerset h2{
+        color: rgb(204, 250, 112);
+        font-size: 22px;
+    }
+    .headerset h1{
+        color: rgb(204, 250, 112);
+        font-weight: bolder;
+        font-size: 42px;
+    }
+    
+    .ourservices{
+        height: 1200px;
+    }
+    .portfolio{
+        height: 2700px;
+    }
+    .ourTeam{
+        height: 1400px;
+    } 
+} */
+
+@media screen and (max-width: 479px){
+    .ourservices,.ourTeam,.portfolio,.headerset,.card,.teamSetting {
+        width: 100%;
+        
+    }
+    .headerset h2{
+        color: rgb(204, 250, 112);
+        font-size: 22px;
+    }
+    .headerset h1{
+        color: rgb(204, 250, 112);
+        font-weight: bolder;
+        font-size: 42px;
+    }
+}
